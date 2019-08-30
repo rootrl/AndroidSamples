@@ -17,9 +17,8 @@ public class MainActivity extends AppCompatActivity {
 
     // Click to recycleView
     public void recycleView(View view) {
-        Intent intent = new Intent(this, RecyclerViewActivity.class);
 
-        startActivity(intent);
+        navToActivity(this, RecyclerViewActivity.class);
     }
 
     // Click to ConstraintLayout
