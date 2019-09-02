@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
         navToActivity(this, ConstraintLayoutActivity.class);
     }
 
+    public void viewPagerLayout(View view) {
+        navToActivity(this, ViewPagerActivity.class);
+    }
 
     // Click to Demo Activity
     public void demoActivity(View view) {
