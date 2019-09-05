@@ -108,7 +108,7 @@ public class HttpUtil {
 代码示例：
 
 ```java
-HttpUtil.sendOkHttpRequest("http://45.76.152.173:8080/test", new Callback() {
+        HttpUtil.sendOkHttpRequest("http://45.76.152.173:8080/test", new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
                 Log.e(TAG, "onFailure: =====================" );
