@@ -39,6 +39,11 @@ public class MainActivity extends AppCompatActivity {
         navToActivity(this, DemoActivity.class);
     }
 
+    // Click to HttpRequest
+    public void httpRequestActivity(View view) {
+        navToActivity(this, HttpRequestActivity.class);
+    }
+
     protected void navToActivity(Context context, Class<?> cls)
     {
         Intent intent = new Intent(context, cls);
