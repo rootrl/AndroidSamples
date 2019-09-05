@@ -12,3 +12,7 @@ https://github.com/rootrl/AndroidSamples/blob/master/docs/Memery.md
 #### Http request and convert json data
 
 https://github.com/rootrl/AndroidSamples/blob/master/docs/HttpRequest.md
+
+
+#### UserDatabaseOrmWithLitePal
+https://github.com/rootrl/AndroidSamples/blob/master/docs/UserDatabaseOrmWithLitePal.md
