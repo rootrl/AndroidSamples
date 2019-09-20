@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HttpRequestActivity"></activity>
+        <activity android:name=".BannerActivity"></activity>
+        <activity android:name=".HttpRequestActivity" />
         <activity android:name=".ViewPagerActivity" />
         <activity android:name=".DemoActivity" />
         <activity android:name=".ConstraintLayoutActivity" />

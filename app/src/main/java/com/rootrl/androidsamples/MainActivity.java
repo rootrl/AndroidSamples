@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
 
@@ -17,6 +18,12 @@ public class MainActivity extends AppCompatActivity {
 
         int maxMemory = (int) (Runtime.getRuntime().maxMemory() / 1024);
         Log.e("TAG", "Max memory is " + maxMemory + "KB");
+
+        String androidId = Settings.Secure.getString(getContentResolver(),
+                Settings.Secure.ANDROID_ID);
+
+        Log.e("OnMain", "onCreate: " + androidId );
+
     }
 
     // Click to recycleView
@@ -42,6 +49,10 @@ public class MainActivity extends AppCompatActivity {
     // Click to HttpRequest
     public void httpRequestActivity(View view) {
         navToActivity(this, HttpRequestActivity.class);
+    }
+
+    public void bannerActivity(View view) {
+        navToActivity(this, BannerActivity.class);
     }
 
     protected void navToActivity(Context context, Class<?> cls)
