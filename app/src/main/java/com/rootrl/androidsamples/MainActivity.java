@@ -51,8 +51,18 @@ public class MainActivity extends AppCompatActivity {
         navToActivity(this, HttpRequestActivity.class);
     }
 
+    // Click to ViewPager
     public void bannerActivity(View view) {
         navToActivity(this, BannerActivity.class);
+    }
+
+    // Click to immersion model
+    public void immersionActivity(View view) {
+        navToActivity(this, ImmertionActivity.class);
+    }
+
+    public void switchViewActivity(View view) {
+        navToActivity(this, SwitchViewActivity.class);
     }
 
     protected void navToActivity(Context context, Class<?> cls)
